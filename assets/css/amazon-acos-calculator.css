@@ -1,0 +1,13 @@
+.saaspik-icon-box-wrapper {
+  border-radius: 14px;
+}
+
+.banner.banner-four {
+  height: unset;
+  z-index: 1;
+  padding-bottom: 100px;
+}
+
+.bg-shape-inner {
+  z-index: -1;
+}

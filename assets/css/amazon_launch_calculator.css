@@ -1,0 +1,74 @@
+input[type='number'] {
+  max-width: 350px;
+}
+
+.dropdown-icon {
+  appearance: auto;
+  max-width: 350px;
+}
+
+.product-price {
+  position: relative;
+}
+
+.budget::before {
+  content: '$';
+}
+
+.text-result {
+  font-weight: 700;
+}
+
+.question-mark {
+  color: #2b2350;
+  position: relative;
+  display: inline-block;
+}
+
+.question-mark:hover > .tool-tip {
+  display: inline-block;
+}
+
+.question-mark .tool-tip {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  background-color: black;
+  color: whitesmoke;
+  list-style: none;
+  width: 270px;
+  padding: 9px;
+  border-radius: 14px;
+  font-size: 13px;
+  transform: translate(-50%, 25%);
+}
+
+.question-mark .tool-tip > li:not(:first-child) {
+  margin-top: 5px;
+}
+
+.border-none {
+  border: unset;
+  box-shadow: unset !important;
+  margin-bottom: 0.9rem !important;
+}
+
+.border-none:focus {
+  box-shadow: unset !important;
+}
+
+.amazon-calculator {
+  height: 1500px !important;
+}
+
+@media (max-width: 1200px) {
+  .amazon-calculator {
+    height: 1550px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .amazon-calculator {
+    height: 1900px !important;
+  }
+}

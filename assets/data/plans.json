@@ -1,0 +1,271 @@
+[
+  {
+    "id": 1,
+    "name": "Startup",
+    "price": [
+      {
+        "code": "USD",
+        "value": 175,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "CAD",
+        "value": 160,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "INR",
+        "value": 14000,
+        "symbol": "₹",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "GBP",
+        "value": 170,
+        "symbol": "£",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "EUR",
+        "value": 175,
+        "symbol": "€",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AED",
+        "value": 645,
+        "symbol": "د.إ ",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "JPY",
+        "value": 23315,
+        "symbol": "¥",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "MXN",
+        "value": 3565,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AUD",
+        "value": 250,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      }
+    ],
+    "description": "For Startups. Up to $7k ad spend",
+    "intro": "INTRO OFFER",
+    "orders": "1%",
+    "adspend": "4.5%",
+    "support": "Self support",
+    "type": "Essentials"
+  },
+  {
+    "id": 2,
+    "name": "Professional",
+    "price": [
+      {
+        "code": "USD",
+        "value": 400,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      }
+      ,
+      {
+        "code": "CAD",
+        "value": 500,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "INR",
+        "value": 31000,
+        "symbol": "₹",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "GBP",
+        "value": 320,
+        "symbol": "£",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "EUR",
+        "value": 390,
+        "symbol": "€",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AED",
+        "value": 1470,
+        "symbol": "د.إ ",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "JPY",
+        "value": 53300,
+        "symbol": "¥",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "MXN",
+        "value": 8150,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AUD",
+        "value": 570,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      }
+    ],
+    "description": "For Private Labels and Brands. Up to $20k ad spend",
+    "intro": "",
+    "orders": "0.75%",
+    "adspend": "3.5%",
+    "support": "Email Support",
+    "active": true,
+    "type": "Standard"
+  },
+  {
+    "id": 3,
+    "name": "Scale",
+    "price": [
+      {
+        "code": "USD",
+        "value": 450,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      }
+      ,
+      {
+        "code": "CAD",
+        "value": 600,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      },
+      {
+        "code": "INR",
+        "value": 36700,
+        "symbol": "₹",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      },
+      {
+        "code": "GBP",
+        "value": 360,
+        "symbol": "£",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      },
+      {
+        "code": "EUR",
+        "value": 410,
+        "symbol": "€",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      },
+      {
+        "code": "AED",
+        "value": 1650,
+        "symbol": "د.إ ",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      },
+      {
+        "code": "JPY",
+        "value": 58450,
+        "symbol": "¥",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      },
+      {
+        "code": "MXN",
+        "value": 8440,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      },
+      {
+        "code": "AUD",
+        "value": 630,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>+1% of ad spend</span>"
+      }
+    ],
+    "description": "For Private Labels and Brands. Unlimited Ad Spend",
+    "intro": "",
+    "orders": "0.75%",
+    "adspend": "3.5%",
+    "support": "Email Support",
+    "active": true,
+    "type": "Scale"
+  },
+  {
+    "id": 4,
+    "name": "Agency",
+    "price": [
+      {
+        "value": 800,
+        "code": "USD",
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "CAD",
+        "value": 1020,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "INR",
+        "value": 63500,
+        "symbol": "₹",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "GBP",
+        "value": 650,
+        "symbol": "£",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "EUR",
+        "value": 780,
+        "symbol": "€",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AED",
+        "value": 3000,
+        "symbol": "د.إ ",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "JPY",
+        "value": 106500,
+        "symbol": "¥",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "MXN",
+        "value": 16300,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AUD",
+        "value": 1100,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      }
+      
+    ],
+    "description": "For Agencies.<br/> Unlimited accounts and ad spend",
+    "intro": "",
+    "orders": "0.5%",
+    "adspend": "2.5%",
+    "support": "Phone, Email and Chat Support",
+    "type": "Premium"
+  }
+]

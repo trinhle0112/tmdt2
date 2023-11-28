@@ -1,0 +1,44 @@
+[
+    {
+        "partnerLogo": "/media/partners/marginBusiness.png",
+        "partnerName": "AMAZON LISTING OPTIMIZATION & TRANSLATION SERVICES THAT MAKE CENTS",
+        "partnerDescription": "Supercharge Your Business With Our Powerful Amazon Listing Optimization & Localization Services We help Amazon sellers to increase their sales on all Amazon Europe marketplaces",
+        "partnerLearnMoreLink": "https://marginbusiness.com/"
+    },
+    {
+        "partnerLogo": "/media/partners/hellotax.png",
+        "partnerName": "Hellotax",
+        "partnerDescription": "hellotax offers online VAT Registration & VAT Filings to reduce your workload.Stay tax compliant within Europe and start monitoring your thresholds with our free tool today.",
+        "partnerLearnMoreLink": "https://hellotax.com/"
+    },
+    {
+        "partnerLogo": "/media/partners/ecomBalance.png",
+        "partnerName": "EcomBalance",
+        "partnerDescription": "EcomBalance is a monthly bookkeeping service that helps eCommerce brands, agencies, and software companies better manage and understand their bookkeeping and finances. Get bookkeeping off your plate and receive accurate financial statements by the 15th of each month.",
+        "partnerLearnMoreLink": "https://ecombalance.com/"
+    },
+    {
+        "partnerLogo": "/media/partners/scSellerCandy.png",
+
+        "partnerDescription": "Seller Central sucks. You deserve better! Seller Candy acts as the technical arm of your Amazon business, bridging the gap between you and Seller Support. No more templated responses, complicated POAs or being bounced between departments - we'll deal with all of that and free up your time and energy to focus on growth.",
+        "partnerLearnMoreLink": "https://sellercandy.com/"
+    },
+    {
+        "partnerLogo": "/media/partners/oj-digital-solution.png",
+        "partnerName": "OJ Digital Solutions",
+        "partnerDescription": "The OJDS team is your partner in manually creating “launch-ready” killer Amazon product listings that will X2 click-through rate and conversion rate. They have written and optimized over 9000 listings in 8 languages, and they offer graphic design for gallery images and A+ content.",
+        "partnerLearnMoreLink": "https://ojdigitalsolutions.com/"
+    },
+    {
+        "partnerLogo": "/media/partners/SellerSnap.png",
+        "partnerName": "Seller Snap",
+        "partnerDescription": "Seller Snap offers a fully automated, AI-powered Amazon Repricer and Analytics Tool. Seller Snap’s learning algorithm analyzes thousands of price decisions every minute to detect the behavior of your competitors. Our AI Repricer then automatically selects the optimal strategy to outsmart your competition, while avoiding price wars. Seller Snap’s Repricer is driven by Game Theory principles, where we apply a cooperative strategy to secure your fair Buy Box share and maximize profits. <br/>10% off for 3 months: <a href=http://referrals.sellersnap.io/l/AiHello/>http://referrals.sellersnap.io/l/AiHello</a>",
+        "partnerLearnMoreLink": "http://referrals.sellersnap.io/l/AiHello/"
+    },
+    {
+        "partnerLogo": "/media/partners/eComEngine.png",
+        "partnerName": "eComEngine",
+        "partnerDescription": "Accelerating growth on Amazon since 2007.  eComEngine creates powerful software to help Amazon sellers save time and increase profits. As the top-rated app on the Amazon Seller Central Partner Network, FeedbackFive is trusted by sellers all over the world to request and manage Amazon feedback and reviews. RestockPro simplifies FBA inventory management to help sellers stay in stock without overstocking. MarketScout is an Amazon product research tool.",
+        "partnerLearnMoreLink": "https://www.ecomengine.com/"
+    }
+]

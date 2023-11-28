@@ -1,0 +1,1180 @@
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="./css/pricing.css" />
+<style>
+  body {
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 575px) {
+    body {
+      overflow-y: auto;
+    }
+  }
+
+  .pricing-section-nine select {
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    background-image: none;
+    background: #ffffff;
+    padding: 5px 30px;
+    border: 1px solid #ececec;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    color: #000;
+    font-weight: 500;
+    font-size: medium;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 6px #f3b2b2;
+  }
+
+  .bg2-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 300px;
+    margin-left: 76%;
+    margin-top: 60%;
+    position: absolute;
+  }
+</style>
+<div
+  _ngcontent-apr-c32=""
+  id="pricing"
+  class="pricing-section-nine lg-container pt-150 md-pt-110"
+>
+  <div _ngcontent-apr-c32="" class="container">
+    <div class="bg2-img">
+      <img src="images/homepage-cta-blob.svg" />
+    </div>
+    <div
+      _ngcontent-apr-c32=""
+      data-aos="fade-up"
+      class="title-style-nine text-center mb-100 aos-init"
+    >
+      <h6 _ngcontent-apr-c32="">PRICING</h6>
+      <h2 _ngcontent-apr-c32="">Pick Your Plan</h2>
+      <select
+        _ngcontent-apr-c32=""
+        class="pricing-select mt-20"
+        onchange="currencyChanged(this.value)"
+      >
+        <option _ngcontent-apr-c32="" value="usd">$ USD</option>
+        <option _ngcontent-apr-c32="" value="cad">$ CAD</option>
+        <option _ngcontent-apr-c32="" value="inr">₹ INR</option>
+        <option _ngcontent-apr-c32="" value="gbp">£ GBP</option>
+        <option _ngcontent-apr-c32="" value="eur">€ EUR</option>
+        <option _ngcontent-apr-c32="" value="aed">د.إ AED</option>
+        <option _ngcontent-apr-c32="" value="jpy">¥ JPY</option>
+        <option _ngcontent-apr-c32="" value="mxn">$ MXN</option>
+        <option _ngcontent-apr-c32="" value="aud">$ AUD</option>
+      </select>
+      <ul
+        _ngcontent-apr-c32=""
+        class="nav nav-tabs justify-content-center pricing-nav-three"
+        role="tablist"
+      >
+        <li _ngcontent-apr-c32="" class="nav-item" role="presentation">
+          <button
+            _ngcontent-apr-c32=""
+            data-bs-toggle="tab"
+            data-bs-target="#month"
+            class="nav-link active"
+            aria-selected="true"
+            role="tab"
+            onclick="aiFn()"
+          >
+            AI Automated
+          </button>
+        </li>
+        <li _ngcontent-apr-c32="" class="nav-item" role="presentation">
+          <button
+            _ngcontent-apr-c32=""
+            data-bs-toggle="tab"
+            data-bs-target="#year"
+            class="nav-link"
+            aria-selected="false"
+            tabindex="-1"
+            role="tab"
+            onclick="hybridFn()"
+          >
+            Managed Hybrid
+          </button>
+        </li>
+      </ul>
+      <div _ngcontent-apr-c32="" class="row justify-content-center" id="ai_div">
+        <div
+          _ngcontent-apr-c32=""
+          data-aos="fade-up"
+          class="col-lg-3 col-sm-6 aos-init"
+        >
+          <div
+            _ngcontent-apr-c32=""
+            class="pr-table-wrapper mt-40"
+            style="
+              text-align: center;
+              border: 1px solid #ececec;
+              border-radius: 20px;
+              padding: 35px 45px;
+            "
+          >
+            <div _ngcontent-apr-c32="" class="pack-name">Startup</div>
+            <div _ngcontent-apr-c32="" class="pack-details">
+              Up to $7,000 in monthly ad spend
+            </div>
+            <div
+              _ngcontent-apr-c32=""
+              class="top-banner d-md-flex align-items-center"
+              style="justify-content: center"
+            >
+              <div _ngcontent-apr-c32="" class="price" id="usd">
+                $175<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="cad"
+                style="display: none"
+              >
+                $160<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="inr"
+                style="display: none"
+              >
+                ₹14000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="gbp"
+                style="display: none"
+              >
+                £170<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="eur"
+                style="display: none"
+              >
+                €175<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aed"
+                style="display: none"
+              >
+                د.إ645
+                <sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="jpy"
+                style="display: none"
+              >
+                ¥23315<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="mxn"
+                style="display: none"
+              >
+                $3565<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aud"
+                style="display: none"
+              >
+                $250<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+            </div>
+            <a
+              _ngcontent-apr-c32=""
+              class="trial-button tran3s"
+              style="border-radius: 10px"
+              href="https://www.aihello.com/schedule.html"
+              >Book a Demo</a
+            >
+            <ul _ngcontent-apr-c32="" class="pr-feature">
+              <li _ngcontent-apr-c32="">Onboarding Call</li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                Dedicated Customer Success Representative
+              </li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                Checkup call with PPC expert after first 30 days
+              </li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                1 consulting hour every 30 days with a PPC expert
+              </li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                Campaign Audits &amp; Performance Benchmarks
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          _ngcontent-apr-c32=""
+          data-aos="fade-up"
+          class="col-lg-3 col-sm-6 aos-init"
+          data-aos-delay="100"
+        >
+          <div
+            _ngcontent-apr-c32=""
+            class="pr-table-wrapper mt-40"
+            style="
+              text-align: center;
+              border: 1px solid #ececec;
+              border-radius: 20px;
+              padding: 35px 45px;
+              height: 96%;
+            "
+          >
+            <div _ngcontent-apr-c32="" class="pack-name">Professional</div>
+            <div _ngcontent-apr-c32="" class="pack-details">
+              Up to $20,000 in monthly ad spend
+            </div>
+            <div
+              _ngcontent-apr-c32=""
+              class="top-banner d-md-flex align-items-center"
+              style="justify-content: center"
+            >
+              <div _ngcontent-apr-c32="" class="price" id="usd">
+                $400<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="cad"
+                style="display: none"
+              >
+                $500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="inr"
+                style="display: none"
+              >
+                ₹31000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="gbp"
+                style="display: none"
+              >
+                £320<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="eur"
+                style="display: none"
+              >
+                €390<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aed"
+                style="display: none"
+              >
+                د.إ1470<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="jpy"
+                style="display: none"
+              >
+                ¥53300<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="mxn"
+                style="display: none"
+              >
+                $8150<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aud"
+                style="display: none"
+              >
+                $570<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+            </div>
+            <a
+              _ngcontent-apr-c32=""
+              class="trial-button tran3s"
+              style="border-radius: 10px"
+              href="https://www.aihello.com/schedule.html"
+              >Book a Demo</a
+            >
+            <ul _ngcontent-apr-c32="" class="pr-feature">
+              <li _ngcontent-apr-c32="">All features in Startup</li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                3 consulting hours each month with PPC expert
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          _ngcontent-apr-c32=""
+          data-aos="fade-up"
+          class="col-lg-3 col-sm-6 aos-init"
+          data-aos-delay="200"
+        >
+          <div
+            _ngcontent-apr-c32=""
+            class="pr-table-wrapper mt-40"
+            style="
+              text-align: center;
+              border: 1px solid #ececec;
+              border-radius: 20px;
+              padding: 35px 45px;
+              height: 96%;
+            "
+          >
+            <div _ngcontent-apr-c32="" class="pack-name">Scale</div>
+            <div _ngcontent-apr-c32="" class="pack-details">
+              Unlimited monthly ad <br />
+              spend
+            </div>
+            <div
+              _ngcontent-apr-c32=""
+              class="top-banner d-md-flex align-items-center"
+              style="justify-content: center"
+            >
+              <div _ngcontent-apr-c32="" class="price" id="usd">
+                $450<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >+1% of ad spend</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="cad"
+                style="display: none"
+              >
+                $600<sub _ngcontent-apr-c32="" style="font-size: 17px"
+                  >+1% of ad spend</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="inr"
+                style="display: none"
+              >
+                ₹36700<sub _ngcontent-apr-c32="" style="font-size: 17px"
+                  >+1% of ad spend</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="gbp"
+                style="display: none"
+              >
+                £360<sub _ngcontent-apr-c32="" style="font-size: 17px"
+                  >+1% of ad spend</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="eur"
+                style="display: none"
+              >
+                €410<sub _ngcontent-apr-c32="" style="font-size: 17px"
+                  >+1% of ad spend</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aed"
+                style="display: none"
+              >
+                د.إ1650<sub _ngcontent-apr-c32="" style="font-size: 17px"
+                  >+1% of ad spend</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="jpy"
+                style="display: none"
+              >
+                ¥58450<sub _ngcontent-apr-c32="" style="font-size: 17px"
+                  >+1% of ad spend</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="mxn"
+                style="display: none"
+              >
+                $8440<sub _ngcontent-apr-c32="" style="font-size: 17px"
+                  >+1% of ad spend</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aud"
+                style="display: none"
+              >
+                $630<sub _ngcontent-apr-c32="" style="font-size: 17px"
+                  >+1% of ad spend</sub
+                >
+              </div>
+            </div>
+            <a
+              _ngcontent-apr-c32=""
+              class="trial-button tran3s"
+              style="border-radius: 10px"
+              href="https://www.aihello.com/schedule.html"
+              >Book a Demo</a
+            >
+            <ul _ngcontent-apr-c32="" class="pr-feature">
+              <li _ngcontent-apr-c32="">All features in Professional</li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                5 consulting hours each month with PPC expert
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          _ngcontent-apr-c32=""
+          data-aos="fade-up"
+          class="col-lg-3 col-sm-6 aos-init"
+          data-aos-delay="200"
+        >
+          <div
+            _ngcontent-apr-c32=""
+            class="pr-table-wrapper mt-40"
+            style="
+              text-align: center;
+              border: 1px solid #ececec;
+              border-radius: 20px;
+              padding: 35px 45px;
+              height: 96%;
+            "
+          >
+            <div _ngcontent-apr-c32="" class="pack-name">Agency</div>
+            <div _ngcontent-apr-c32="" class="pack-details">
+              Unlimited accounts and ad spend 
+            </div>
+            <div
+              _ngcontent-apr-c32=""
+              class="top-banner d-md-flex align-items-center"
+              style="justify-content: center"
+            >
+              <div _ngcontent-apr-c32="" class="price" id="usd">
+                $800<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="cad"
+                style="display: none"
+              >
+                $1020<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="inr"
+                style="display: none"
+              >
+                ₹63500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="gbp"
+                style="display: none"
+              >
+                £650<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="eur"
+                style="display: none"
+              >
+                €780<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aed"
+                style="display: none"
+              >
+                د.إ3000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="jpy"
+                style="display: none"
+              >
+                ¥106500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="mxn"
+                style="display: none"
+              >
+                $16300<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aud"
+                style="display: none"
+              >
+                $1100<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+            </div>
+            <a
+              _ngcontent-apr-c32=""
+              class="trial-button tran3s"
+              style="border-radius: 10px"
+              href="https://www.aihello.com/schedule.html"
+              >Book a Demo</a
+            >
+            <ul _ngcontent-apr-c32="" class="pr-feature">
+              <li _ngcontent-apr-c32="">All features in Professional</li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                8 consulting hours each month with PPC expert
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div
+        _ngcontent-apr-c32=""
+        class="row justify-content-center"
+        id="hybrid_div"
+        style="display: none"
+      >
+        <div
+          _ngcontent-apr-c32=""
+          data-aos="fade-up"
+          class="col-lg-3 col-sm-6 aos-init"
+        >
+          <div
+            _ngcontent-apr-c32=""
+            class="pr-table-wrapper mt-40"
+            style="
+              text-align: center;
+              border: 1px solid #ececec;
+              border-radius: 20px;
+              padding: 35px 45px;
+            "
+          >
+            <div _ngcontent-apr-c32="" class="pack-name">Growth</div>
+            <div _ngcontent-apr-c32="" class="pack-details">
+              Up to $10,000 in monthly ad spend
+            </div>
+            <div
+              _ngcontent-apr-c32=""
+              class="top-banner d-md-flex align-items-center"
+              style="justify-content: center"
+            >
+              <div _ngcontent-apr-c32="" class="price" id="usd">
+                $750<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="cad"
+                style="display: none"
+              >
+                $965<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="inr"
+                style="display: none"
+              >
+                ₹60000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="gbp"
+                style="display: none"
+              >
+                £600<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="eur"
+                style="display: none"
+              >
+                €730<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aed"
+                style="display: none"
+              >
+                د.إ2700<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="jpy"
+                style="display: none"
+              >
+                ¥100000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="mxn"
+                style="display: none"
+              >
+                $16000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aud"
+                style="display: none"
+              >
+                $1080<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+            </div>
+            <a
+              _ngcontent-apr-c32=""
+              class="trial-button tran3s"
+              style="border-radius: 10px"
+              href="https://www.aihello.com/schedule.html"
+              >Book a Demo</a
+            >
+            <ul _ngcontent-apr-c32="" class="pr-feature">
+              <li _ngcontent-apr-c32="">
+                Complete management of Amazon account by specialist
+              </li>
+              <br />
+              <li _ngcontent-apr-c32="">Content creation</li>
+              <br />
+              <li _ngcontent-apr-c32="">Listing optimization</li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                Competitor research and business strategy creation
+              </li>
+              <br />
+              <li _ngcontent-apr-c32="">Smart order fulfillment</li>
+              <br />
+              <li _ngcontent-apr-c32="">
+                Direct chat on Microsoft teams with AiHello team
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          _ngcontent-apr-c32=""
+          data-aos="fade-up"
+          class="col-lg-3 col-sm-6 aos-init"
+          data-aos-delay="100"
+        >
+          <div
+            _ngcontent-apr-c32=""
+            class="pr-table-wrapper mt-40"
+            style="
+              text-align: center;
+              border: 1px solid #ececec;
+              border-radius: 20px;
+              padding: 35px 45px;
+              height: 96%;
+            "
+          >
+            <div _ngcontent-apr-c32="" class="pack-name">Advanced</div>
+            <div _ngcontent-apr-c32="" class="pack-details">
+              Up to $25,000 in monthly ad spend
+            </div>
+            <div
+              _ngcontent-apr-c32=""
+              class="top-banner d-md-flex align-items-center"
+              style="justify-content: center"
+            >
+              <div _ngcontent-apr-c32="" class="price" id="usd">
+                $1500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="cad"
+                style="display: none"
+              >
+                $2000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="inr"
+                style="display: none"
+              >
+                ₹121000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="gbp"
+                style="display: none"
+              >
+                £1500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="eur"
+                style="display: none"
+              >
+                €1500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aed"
+                style="display: none"
+              >
+                د.إ5500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="jpy"
+                style="display: none"
+              >
+                ¥200000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="mxn"
+                style="display: none"
+              >
+                $36000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aud"
+                style="display: none"
+              >
+                $1800<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+            </div>
+            <a
+              _ngcontent-apr-c32=""
+              class="trial-button tran3s"
+              style="border-radius: 10px"
+              href="https://www.aihello.com/schedule.html"
+              >Book a Demo</a
+            >
+            <ul _ngcontent-apr-c32="" class="pr-feature">
+              <li _ngcontent-apr-c32="">All features in Growth Plan</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          _ngcontent-apr-c32=""
+          data-aos="fade-up"
+          class="col-lg-3 col-sm-6 aos-init"
+          data-aos-delay="200"
+        >
+          <div
+            _ngcontent-apr-c32=""
+            class="pr-table-wrapper mt-40"
+            style="
+              text-align: center;
+              border: 1px solid #ececec;
+              border-radius: 20px;
+              padding: 35px 45px;
+              height: 96%;
+            "
+          >
+            <div _ngcontent-apr-c32="" class="pack-name">Scale</div>
+            <div _ngcontent-apr-c32="" class="pack-details">
+              Up to $50,000 in monthly ad spend
+            </div>
+            <div
+              _ngcontent-apr-c32=""
+              class="top-banner d-md-flex align-items-center"
+              style="justify-content: center"
+            >
+              <div _ngcontent-apr-c32="" class="price" id="usd">
+                $2500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="cad"
+                style="display: none"
+              >
+                $3300<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="inr"
+                style="display: none"
+              >
+                ₹203700<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="gbp"
+                style="display: none"
+              >
+                £2020<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="eur"
+                style="display: none"
+              >
+                €2300<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aed"
+                style="display: none"
+              >
+                د.إ9200<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="jpy"
+                style="display: none"
+              >
+                ¥325000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="mxn"
+                style="display: none"
+              >
+                $47000<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+              <div
+                _ngcontent-apr-c32=""
+                class="price"
+                id="aud"
+                style="display: none"
+              >
+                $3500<sub
+                  _ngcontent-apr-c32=""
+                  style="font-size: 17px; font-weight: 500; color: #2d2d2d"
+                  >/mo</sub
+                >
+              </div>
+            </div>
+            <a
+              _ngcontent-apr-c32=""
+              class="trial-button tran3s"
+              style="border-radius: 10px"
+              href="https://www.aihello.com/schedule.html"
+              >Book a Demo</a
+            >
+            <ul _ngcontent-apr-c32="" class="pr-feature">
+              <li _ngcontent-apr-c32="">All features in Advanced Plan</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          _ngcontent-apr-c32=""
+          data-aos="fade-up"
+          class="col-lg-3 col-sm-6 aos-init"
+          data-aos-delay="200"
+        >
+          <div
+            _ngcontent-apr-c32=""
+            class="pr-table-wrapper mt-40"
+            style="
+              text-align: center;
+              border: 1px solid #ececec;
+              border-radius: 20px;
+              padding: 35px 45px;
+              height: 96%;
+            "
+          >
+            <div _ngcontent-apr-c32="" class="pack-name">Enterprise</div>
+            <div _ngcontent-apr-c32="" class="pack-details">
+              Above $50,000 (or equivalent) ad spend
+            </div>
+            <div
+              _ngcontent-apr-c32=""
+              class="top-banner d-md-flex align-items-center"
+              style="justify-content: center"
+            >
+              <div _ngcontent-apr-c32="" class="price">Contact us</div>
+            </div>
+            <a
+              _ngcontent-apr-c32=""
+              class="trial-button tran3s"
+              style="border-radius: 10px"
+              href="https://www.aihello.com/schedule.html"
+              >Book a Demo</a
+            >
+            <ul _ngcontent-apr-c32="" class="pr-feature">
+              <li _ngcontent-apr-c32="">All features in Scale</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="./js/pricing.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>

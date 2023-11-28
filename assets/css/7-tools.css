@@ -1,0 +1,167 @@
+/* CHOOSE MARKET PLACE DROP DOWN */
+.market-place-dropdown {
+  max-width: 300px;
+  height: 56px;
+  font-size: 1rem;
+  margin-top: 15px !important;
+}
+
+.border-focus {
+  border: 1px solid #80bdff;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.select-checkbox {
+  display: none;
+}
+
+.fa-caret-down {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.market-place-list {
+  height: 300px;
+  overflow-y: scroll;
+  visibility: hidden;
+  list-style: none;
+  position: absolute;
+  bottom: -20px;
+  transform: translateY(100%);
+  background-color: #ffff;
+  z-index: 100;
+  border: 1px solid #ced4da;
+}
+
+.select-checkbox:checked ~ ul {
+  visibility: visible;
+}
+
+.select-wrapper {
+  border-radius: 30px;
+  color: black;
+  position: relative;
+}
+
+.place {
+  padding: 10px 0;
+  position: relative;
+}
+
+.place:hover {
+  background: #80bdff;
+}
+
+.selected-place {
+  margin-bottom: 0;
+  padding: 10px;
+  position: relative;
+  height: 56px;
+}
+
+.flag {
+  height: 25px;
+  position: absolute;
+  left: 35px;
+}
+/* COMMON CSS */
+
+.form-radius {
+  border-radius: 14px;
+  padding-bottom: 0 !important;
+}
+
+.tool-control {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border: 1px solid #ced4da;
+}
+
+.tool-control:focus {
+  border: 1px solid #80bdff;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.focus-no-outline:focus {
+  outline: none;
+}
+
+.saaspik-icon-box-icon {
+  background-color: #7052fb !important;
+}
+.saaspik-icon-box-icon > i {
+  color: #ffff;
+}
+
+.saaspik-icon-box-icon:hover {
+  background-color: #fa7070 !important;
+  border: #fa7070 !important;
+}
+
+.generate-btn {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.unset-animation {
+  animation: unset !important;
+}
+
+.form-row-padding {
+  padding: 40px 17px 0px 17px !important;
+  box-shadow: none !important;
+}
+
+.banner-four {
+  height: 1300px !important;
+}
+
+@media (min-width: 1220px) and (max-width: 1400px) {
+  .banner-four {
+    height: 1300px !important;
+  }
+}
+
+@media (max-width: 570px) {
+  .banner-four {
+    height: 1600px !important;
+  }
+}
+
+.tool-6 {
+  height: 1500px !important;
+}
+
+@media (min-width: 1220px) and (max-width: 1800px) {
+  .tool-6 {
+    height: 1200px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .tool-6 {
+    height: 1800px !important;
+  }
+}
+
+.tool-2 {
+  height: 1100px !important;
+}
+
+@media (min-width: 1220px) and (max-width: 1400px) {
+  .tool-2 {
+    height: 1100px !important;
+  }
+}
+
+@media (max-width: 571px) {
+  .tool-2 {
+    height: 1300px !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .tool-control {
+    font-size: 0.8rem !important;
+  }
+}

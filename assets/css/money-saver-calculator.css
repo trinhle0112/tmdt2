@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 37, 41);
+  color: rgb(255, 255, 255);
+}
+
+#content {
+  padding-top: 160px;
+  padding-bottom: 120px;
+  min-height: 100vh;
+}
+
+#nav-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 50%) 0px -3px 25px 0px;
+}
+
+.tab {
+  display: none;
+  height: 100%;
+}
+
+.sub-tab {
+  display: none;
+}
+
+.step {
+  padding: 8px 16px;
+  margin-bottom: 6px;
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  border-left: 2px solid rgb(223, 28, 47);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(255, 255, 255);
+}
+
+#prevBtn,
+#nextBtn,
+#calculateBtn {
+  min-width: 130px;
+  padding: 8px 20px;
+  background-color: rgb(223, 28, 47);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.dropdown-list,
+.input-field {
+  appearance: auto;
+  border-radius: 0;
+  max-width: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  #content {
+    padding-top: 120px;
+  }
+}
+
+.z-index-before {
+  z-index: 1 !important;
+}
+
+.z-index-after {
+  z-index: -1 !important;
+}
+
+#currency {
+  width: 120px;
+}

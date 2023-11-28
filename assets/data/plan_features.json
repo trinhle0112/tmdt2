@@ -1,0 +1,159 @@
+{
+  "aiAutomatedFeatures": {
+    "basic": [
+      {
+        "title": "Onboarding Call",
+        "class": "have",
+        "tooltipContent": "An Onboarding call with our specialist designed to help you quickly get onboard AiHello.",
+        "alt": "AiHello AutoPilot Onboarding Specialist"
+      },
+      {
+        "title": "Dedicated Customer Success Rep",
+        "class": "have",
+        "tooltipContent": "Dedicated Customer Success Representative",
+        "alt": "Dedicated Customer Success Rep"
+      },
+      {
+        "title": "Checkup call with PPC expert after first 30 days ",
+        "class": "have",
+        "tooltipContent": "Checkup call with PPC expert after first 30 days to see your progress on AutoPilot and Amazon",
+        "alt": "Checkup call with PPC expert after first 30 days"
+      },
+      {
+        "title": "1 consulting hour every 30 days with a PPC expert ",
+        "class": "have",
+        "tooltipContent": "Consulting with PPC Expert for your Amazon Business and AiHello",
+        "alt": "Amazon Advertising Specialist Consultant"
+      },
+
+     
+    
+      {
+        "title": "Campaign Audits & Performance Benchmarks",
+        "class": "have",
+        "tooltipContent": "Audit your campaigns, Benchmark against competitors. Find out accurately why your campaign is not performing. And then take steps to resolve your issues",
+        "gif": "assets/img/ppc campaign trends and audit.gif",
+        "alt": "Audit your campaigns, Benchmark against competitors"
+      }
+     
+  
+    ],
+    "standard": [
+      {
+        "title": "All features in Startup",
+        "class": "have",
+        "tooltipContent": "All the features that are in the Startup plan",
+        "alt": "All the features that are in Startup Plan of AiHello"
+      },  {
+        "title": "3 consulting hours each month with PPC expert",
+        "class": "have",
+        "tooltipContent": "3 consulting hours each month with PPC expert",
+        "alt": "3 consulting hours each month with PPC expert"
+      }
+     
+     
+    ],
+    "standard2": [
+      {
+        "title": "All features in Professional",
+        "class": "have",
+        "tooltipContent": "All the features that are in the Startup plan",
+        "alt": "All the features that are in Startup Plan of AiHello"
+      },  {
+        "title": "5 consulting hours each month with PPC expert",
+        "class": "have",
+        "tooltipContent": "5 consulting hours each month with PPC expert",
+        "alt": "5 consulting hours each month with PPC expert"
+      }
+     
+     
+    ],
+    "premium": [
+     
+      {
+        "title": "All features in Enterprise",
+        "class": "have",
+        "tooltipContent": "All the features that are in the Professional plan",
+        "alt": "All the features that are in Professional Plan of AiHello"
+      },  {
+        "title": "8 consulting hours each month with PPC expert",
+        "class": "have",
+        "tooltipContent": "8 consulting hours each month with PPC expert",
+        "alt": "8 consulting hours each month with PPC expert"
+      }
+    ]
+  },
+  "hybridFeatures": {
+    "basic": [
+     
+  {
+        "title": "Complete management of Amazon account by specialist",
+        "class": "have",
+        "tooltipContent": "Our Ecommerce and PPC Specialist team will handle your complete account including setting up AiHello, your Amazon account and also your brand websites",
+        "alt": "Complete management of Amazon account by specialist"
+      }, 
+      {
+        "title": "Content creation",
+        "class": "have",
+        "tooltipContent": "All content including Graphics, Videos, A+ Content, Product detail, Store creation, Brand Website (Woocommerce) creation",
+        "alt": "Content creation "
+      }, {
+        "title": "Listing optimization",
+        "class": "have",
+        "tooltipContent": "Optimize all your listings for maximum conversions. A+ content included",
+        "alt": "Listing optimization"
+      }, {
+        "title": "Competitor research and business strategy creation",
+        "class": "have",
+        "tooltipContent": "Exhaustive Competitor and Marketplace strategy that will be updated every 30 days to help your business succeed",
+        "alt": "Competitor research and business strategy creation"
+      }, {
+        "title": "Smart order fulfillment",
+        "class": "have",
+        "tooltipContent": "Setup your Shopify/Woocommerce orders to automatically fulfill directly from Amazon",
+        "alt": "All the features that are in Startup Plan of AiHello"
+      }, {
+        "title": "Direct chat on Microsoft teams with AiHello team",
+        "class": "have",
+        "tooltipContent": "Chat in real time with AiHello team for tasks, progress reports and business strategies",
+        "alt": "All the features that are in Startup Plan of AiHello"
+      }, {
+        "title": "Direct chat on Microsoft teams with AiHello team",
+        "class": "have",
+        "tooltipContent": "Complimentary access to Premium AiHello software.",
+        "alt": "All the features that are in Startup Plan of AiHello"
+      }
+    ],
+    "standard": [
+     
+      {
+        "title": "All features in Growth Plan",
+        "class": "have",
+        "tooltipContent": "All the features that are in the Growth plan",
+        "alt": "All the features that are in Growth Plan of AiHello"
+      }
+     
+      
+    ],
+    "standard2": [
+     
+      {
+        "title": "All features in Advanced Plan",
+        "class": "have",
+        "tooltipContent": "All the features that are in the Growth plan",
+        "alt": "All the features that are in Growth Plan of AiHello"
+      }
+     
+      
+    ],
+    "premium": [
+      {
+        "title": "All features in Enterprise",
+        "class": "have",
+        "tooltipContent": "All the features that are in the Advanced plan",
+        "alt": "All the features that are in Advanced Plan of AiHello"
+      }
+    
+    ]
+  }
+}

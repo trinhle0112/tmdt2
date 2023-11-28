@@ -1,0 +1,256 @@
+[
+  {
+    "id": 1,
+    "name": "Growth",
+    "price": [
+      {
+        "code": "USD",
+        "value": 750,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "INR",
+        "value": 60000,
+        "symbol": "₹",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "GBP",
+        "value": 600,
+        "symbol": "£",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "EUR",
+        "value": 730,
+        "symbol": "€",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AED",
+        "value": 2700,
+        "symbol": "د.إ ",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "JPY",
+        "value": 100000,
+        "symbol": "¥",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "MXN",
+        "value": 16000,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AUD",
+        "value": 1080,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "CAD",
+        "value": 965,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      }
+    ],
+    "description": "Up to $10k ad spend",
+    "intro": "INTRO OFFER",
+    "adspend": "4.5%",
+    "support": "Phone, Email, Chat Support & Teams Collaboration",
+    "type": "EssentialsHybrid"
+  },
+  {
+    "id": 2,
+    "name": "Advanced ",
+    "price": [
+      {
+        "code": "USD",
+        "value": 1500,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "INR",
+        "value": 121000,
+        "symbol": "₹",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "GBP",
+        "value": 1500,
+        "symbol": "£",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "EUR",
+        "value": 1500,
+        "symbol": "€",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AED",
+        "value": 5500,
+        "symbol": "د.إ ",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "JPY",
+        "value": 200000,
+        "symbol": "¥",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "MXN",
+        "value": 36000,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AUD",
+        "value": 1800,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "CAD",
+        "value": 2000,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      }
+    ],
+    "description": "Up to $25k ad spend",
+    "intro": "",
+    "adspend": "3.5%",
+    "active": true,
+    "support": "Phone, Email, Chat Support & Teams Collaboration",
+    "type": "StandardHybrid"
+  },
+  {
+    "id": 3,
+    "name": "Scale",
+    "price": [
+      {
+        "code": "USD",
+        "value": 2500,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "INR",
+        "value": 203700,
+        "symbol": "₹",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "GBP",
+        "value": 2020,
+        "symbol": "£",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "EUR",
+        "value": 2300,
+        "symbol": "€",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AED",
+        "value": 9200,
+        "symbol": "د.إ ",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "JPY",
+        "value": 325000,
+        "symbol": "¥",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "MXN",
+        "value": 47000,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "AUD",
+        "value": 3500,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      },
+      {
+        "code": "CAD",
+        "value": 3300,
+        "symbol": "$",
+        "sub": "<span style='font-size: 17px; font-weight:500'>/mo</span>"
+      }
+    ],
+    "description": "Up to $50k ad spend",
+    "intro": "",
+    "adspend": "3.5%",
+    "active": true,
+    "support": "Phone, Email, Chat Support & Teams Collaboration",
+    "type": "ScaleHybrid"
+  },
+  {
+    "id": 4,
+    "name": "Enterprise",
+    "price": [
+      {
+        "value": "Contact Us",
+        "code": "USD",
+        "symbol": "$"
+      },
+      {
+        "code": "INR",
+        "value": "Contact Us",
+        "symbol": "₹"
+      },
+      {
+        "code": "GBP",
+        "value": "Contact Us",
+        "symbol": "£"
+      },
+      {
+        "code": "EUR",
+        "value": "Contact Us",
+        "symbol": "€"
+      },
+      {
+        "code": "AED",
+        "value": "Contact Us",
+        "symbol": "د.إ "
+      },
+      {
+        "code": "JPY",
+        "value": "Contact Us",
+        "symbol": "¥"
+      },
+      {
+        "code": "MXN",
+        "value": "Contact Us",
+        "symbol": "$"
+      },
+      {
+        "code": "AUD",
+        "value": "Contact Us",
+        "symbol": "$"
+      },
+      {
+        "code": "CAD",
+        "value": "Contact Us",
+        "symbol": "$"
+      }
+    ],
+    "description": "Above $50k (or equivalent) ad spend",
+    "intro": "",
+    "orders": "0.5%",
+    "adspend": "2.5%",
+    "support": "Phone, Email, Chat Support & Teams Collaboration",
+    "type": "PremiumHybrid"
+  }
+]
